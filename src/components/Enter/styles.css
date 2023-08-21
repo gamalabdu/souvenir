@@ -1,0 +1,49 @@
+
+
+.landing-container {
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0rem;
+    overflow: hidden;
+    background-color: rgb(19, 19, 19);
+    position: absolute;
+    z-index: -1;
+}
+
+.enter-tag {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    font-weight: lighter;
+    z-index: 2;
+}
+
+.enter-button {
+    border: none;
+    text-decoration: underline;
+    color: white;
+    background-color: transparent;
+    font-size: 3vw;
+    transition: font-size 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.enter-button:hover {
+    font-size: 3.5vw;
+    transition: font-size 300ms ease-in-out;
+}
+
+.enter-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% center;
+    z-index: 1;
+}

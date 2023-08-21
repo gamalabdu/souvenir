@@ -1,0 +1,54 @@
+
+.about-container {
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.postcard {
+    padding: 50px;
+    max-width: 50%;
+}
+
+
+.lower-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.info {
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 786px) {
+
+    .postcard {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .lower-info {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+
+    .info {
+        font-size: 2vw;
+        display: flex;
+        flex-direction: column;
+    }
+     
+}
